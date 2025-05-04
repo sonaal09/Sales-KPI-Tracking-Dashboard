@@ -171,7 +171,6 @@ with col5:
                        data=top_category_bar.to_csv().encode('utf-8'),
                        file_name='Total_Sales_by_Category.csv',
                        mime='text/csv')
-    st.markdown("</div>", unsafe_allow_html=True)
     st.markdown('---')
 
 # total transaction by each payment method 
